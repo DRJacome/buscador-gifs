@@ -16,11 +16,11 @@ const GifExpertApp = () => {
 
   return (
     <>
-      <h1>Gif Finder App</h1>
-      <h4>Introduce una o más palabras clave para mostrar una colección de 10 GIFs:</h4>
+      <h1>Buscador de GIFs</h1>
+      <h3>Introduce una o más palabras clave para mostrar una colección de 10 GIFs:</h3>
       {/* En "<AddCategoria setCategorias={setCategorias} />" se envía la propiedad
         * "{setCategorias} desde el padre "GifExpertApp" al hijo "AddCategoria"
-      */}   
+      */}
       <AddCategoria setCategorias={setCategorias} />
       <hr />
       <ol>
